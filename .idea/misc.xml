@@ -1,0 +1,50 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Baris/Desktop/MobilProje/PENGUEN/app/src/main/res/drawable/ic_baseline_cancel_24.xml" value="0.16" />
+        <entry key="..\:/Users/Baris/Desktop/MobilProje/PENGUEN/app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.16" />
+        <entry key="..\:/Users/Baris/Desktop/MobilProje/PENGUEN/app/src/main/res/drawable/ic_baseline_check_circle_24.xml" value="0.16" />
+        <entry key="..\:/Users/Baris/Desktop/MobilProje/PENGUEN/app/src/main/res/drawable/ic_penguin.xml" value="0.16" />
+        <entry key="..\:/Users/Baris/Desktop/MobilProje/PENGUEN/app/src/main/res/layout/acticity_quiz_ekrani.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Baris/Desktop/MobilProje/PENGUEN/app/src/main/res/layout/activity_anaekran.xml" value="0.264" />
+        <entry key="..\:/Users/Baris/Desktop/MobilProje/PENGUEN/app/src/main/res/layout/activity_calis1.xml" value="0.264" />
+        <entry key="..\:/Users/Baris/Desktop/MobilProje/PENGUEN/app/src/main/res/layout/activity_calis1_satir.xml" value="0.264" />
+        <entry key="..\:/Users/Baris/Desktop/MobilProje/PENGUEN/app/src/main/res/layout/activity_caliskart.xml" value="0.264" />
+        <entry key="..\:/Users/Baris/Desktop/MobilProje/PENGUEN/app/src/main/res/layout/activity_giris.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/Baris/Desktop/MobilProje/PENGUEN/app/src/main/res/layout/activity_kelimecalis.xml" value="0.264" />
+        <entry key="..\:/Users/Baris/Desktop/MobilProje/PENGUEN/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Baris/Desktop/MobilProje/PENGUEN/app/src/main/res/layout/activity_quiz.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Baris/Desktop/MobilProje/PENGUEN/app/src/main/res/layout/activity_quiz_a1a2.xml" value="0.264" />
+        <entry key="..\:/Users/Baris/Desktop/MobilProje/PENGUEN/app/src/main/res/layout/activity_quiz_a1a2_baslat.xml" value="0.264" />
+        <entry key="..\:/Users/Baris/Desktop/MobilProje/PENGUEN/app/src/main/res/layout/activity_skor.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Baris/Desktop/MobilProje/PENGUEN/app/src/main/res/layout/activity_skor_satir.xml" value="0.264" />
+        <entry key="..\:/Users/Baris/Desktop/MobilProje/PENGUEN/app/src/main/res/layout/activity_sozluk.xml" value="0.16" />
+        <entry key="..\:/Users/Baris/Desktop/MobilProje/PENGUEN/app/src/main/res/layout/caliskart_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Baris/Desktop/MobilProje/PENGUEN/app/src/main/res/layout/spinner_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Baris/Desktop/MobilProje/PENGUEN/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Baris/Desktop/MobilProje/PENGUEN/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/Baris/Desktop/MobilProje/PENGUEN/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Users/Baris/Desktop/PENGUEN/app/src/main/res/layout/activity_anaekran.xml" value="0.33" />
+        <entry key="..\:/Users/Baris/Desktop/PENGUEN/app/src/main/res/layout/activity_giris.xml" value="0.33" />
+        <entry key="..\:/Users/Baris/Desktop/PENGUEN/app/src/main/res/layout/anaekran.xml" value="0.18034447821681865" />
+        <entry key="..\:/Users/M.KARACA/AndroidStudioProjects/PENGUEN/app/src/main/res/layout/activity_main.xml" value="0.14673913043478262" />
+        <entry key="..\:/Users/M.KARACA/Desktop/PENGUEN/app/src/main/res/layout/activity_anaekran.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/M.KARACA/Desktop/PENGUEN/app/src/main/res/layout/activity_eylemler.xml" value="0.264" />
+        <entry key="..\:/Users/M.KARACA/Desktop/PENGUEN/app/src/main/res/layout/activity_giris.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/M.KARACA/Desktop/PENGUEN/app/src/main/res/layout/activity_kelimecalis.xml" value="0.264" />
+        <entry key="..\:/Users/M.KARACA/Desktop/PENGUEN/app/src/main/res/layout/activity_kelimecalisma.xml" value="0.17135416666666667" />
+        <entry key="..\:/Users/berat/Desktop/PENGUEN/app/src/main/res/layout/activity_anaekran.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/berat/Desktop/PENGUEN/app/src/main/res/layout/activity_kelimecalis.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/berat/Desktop/PENGUEN/app/src/main/res/layout/activity_quiz.xml" value="0.25" />
+        <entry key="..\:/Users/berat/Desktop/PENGUEN/app/src/main/res/layout/activity_sozluk.xml" value="0.3138586956521739" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="corretto-11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

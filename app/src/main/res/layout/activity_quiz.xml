@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayoutEylemler"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizActivity"
+    android:background="@color/arkaplan">
+
+    <!-- AnaEkran Penguen ve yazı kısmı -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/QconstraintLayoutBaslikQuiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/QconstraintLayoutMesaj"
+        >
+        <ImageView
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/Qpenguen"
+            android:id="@+id/QpenguenResim"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:srcCompat="@drawable/penguin2"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/Qpenguen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="30dp"
+            android:text="PENGU"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/QpenguenResim"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/Qpenguen2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="EN"
+            android:textStyle="bold"
+            android:textColor="@color/yellow"
+            app:layout_constraintLeft_toRightOf="@+id/Qpenguen"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:ignore="MissingConstraints" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/QconstraintLayoutMesaj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf= "@id/QconstraintLayoutBaslikQuiz"
+        app:layout_constraintBottom_toTopOf="@id/QconstraintLayoutSeviyeler"
+        >
+
+        <TextView
+
+            android:id="@+id/QtxtMetinKatagori"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quize başlamak için kategori seç"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/QconstraintLayoutSeviyeler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginRight="@dimen/margin_right"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_marginBottom="@dimen/margin_bottom"
+        app:layout_constraintTop_toBottomOf="@id/QconstraintLayoutMesaj"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/QbtnSeviyeA1A2"
+            android:text="Hayvanlar ve Sayılar"
+            android:textSize="14dp"
+            app:cornerRadius="10dp"
+            android:padding="15dp"
+            android:textColor="@color/arkaplan"
+            android:backgroundTint="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

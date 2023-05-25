@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "813051614406",
+    "project_id": "penguen-mobilproject",
+    "storage_bucket": "penguen-mobilproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813051614406:android:d919d9173941a1e677b3c7",
+        "android_client_info": {
+          "package_name": "bm.mobil.proje.penguen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813051614406-l33icrj2hjq4m57444vuvv4va8pu7sej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjhkU5jIidT3DgVvTOt7lMC6arvMXjQnM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813051614406-l33icrj2hjq4m57444vuvv4va8pu7sej.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

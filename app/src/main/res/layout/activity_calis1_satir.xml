@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/anaekranarkaplan"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/calis1CardView"
+    app:cardBackgroundColor="@color/arkaplan"
+    app:cardCornerRadius="25dp"
+    app:cardElevation="5dp"
+    android:padding="5dp"
+    android:layout_margin="3dp"
+    >
+    <LinearLayout
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginRight="@dimen/margin_right"
+        android:layout_marginBottom="@dimen/margin_bottom"
+        android:id="@+id/calis1_satir_analinerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@color/arkaplan"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/calis1imageviewsol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:backgroundTint="@color/arkaplan"
+                android:padding="2dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_baseline_check_circle_24" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_top"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:layout_marginRight="@dimen/margin_right"
+                android:layout_marginBottom="@dimen/margin_bottom"
+                >
+                <Button
+                    android:id="@+id/calis1btnEn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:layout_margin="5dp"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/yellow"
+                    android:textSize="18sp" />
+                <Button
+                    android:id="@+id/calis1btnTR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:layout_margin="5dp"
+                    android:backgroundTint="@color/yellow"
+                    android:textColor="@color/yellow"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/calis1imageviewsag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/margin_right"
+                android:backgroundTint="@color/arkaplan"
+                android:padding="2dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_baseline_cancel_24" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

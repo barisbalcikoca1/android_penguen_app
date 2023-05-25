@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayoutEylemlerA1A2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/arkaplan"
+    tools:context=".QuizActivityA1A2"
+    >
+
+    <!-- AnaEkran Penguen ve yazı kısmı -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/QA1A2constraintLayoutBaslikQuiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/QA1A2constraintLayoutBilgilendirme"
+        >
+        <ImageView
+            android:id="@+id/QA1A2penguenResim"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:srcCompat="@drawable/penguin2"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/QA1A2penguen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="30dp"
+            android:text="PENGU"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/QA1A2penguenResim"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/QA1A2penguen2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="EN"
+            android:textStyle="bold"
+            android:textColor="@color/yellow"
+            app:layout_constraintLeft_toRightOf="@+id/QA1A2penguen"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:ignore="MissingConstraints" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- İlk bilgi kısmı -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/QA1A2constraintLayoutBilgilendirme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginRight="@dimen/margin_right"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/QA1A2constraintLayoutBaslikQuiz"
+        app:layout_constraintBottom_toTopOf="@+id/QA1A2constraintLayoutIconluBilgilendirme"
+        >
+
+        <TextView
+            android:id="@+id/QA1A2bilgi1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="Quiz Hakkında Bilmen Gerekenler"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <!-- İconlu bilgi kısmı -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/QA1A2constraintLayoutIconluBilgilendirme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/QA1A2constraintLayoutBilgilendirme"
+        app:layout_constraintBottom_toTopOf="@+id/QA1A2constraintLayoutIconluBilgilendirme2"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/QA1A2timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/quiztimerr"
+            android:layout_marginLeft="20dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/QA1A2timerBilgi"
+
+            />
+        <TextView
+            android:id="@+id/QA1A2timerBilgi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintLeft_toRightOf="@+id/QA1A2timer"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:textStyle="bold"
+            android:text="30 saniye içinde istediğin kadar soruya yanıt \nverebilirsin."
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/QA1A2constraintLayoutIconluBilgilendirme2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/QA1A2constraintLayoutIconluBilgilendirme3"
+        app:layout_constraintTop_toBottomOf="@+id/QA1A2constraintLayoutIconluBilgilendirme"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:id="@+id/QA1A2true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/quiztruee"
+            android:layout_marginLeft="20dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/QA1A2timerBilgi2"
+            />
+        <TextView
+            android:id="@+id/QA1A2timerBilgi2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintLeft_toRightOf="@+id/QA1A2true"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:textStyle="bold"
+            android:text="Doğru yanıt verdiğin her soru için 1 puan \n kazanacaksın."
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/QA1A2constraintLayoutIconluBilgilendirme3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/QA1A2ButtonConstraint"
+        app:layout_constraintTop_toBottomOf="@+id/QA1A2constraintLayoutIconluBilgilendirme2"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:id="@+id/QA1A2statistic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/quizstatisticss"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/QA1A2statisticBilgi3"
+            />
+        <TextView
+            android:id="@+id/QA1A2statisticBilgi3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintLeft_toRightOf="@+id/QA1A2statistic"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:textStyle="bold"
+            android:text="Kazandığın puanlar seni skor tablosunda üst\n sıralara taşıyacak."
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/QA1A2ButtonConstraint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/QA1A2constraintLayoutIconluBilgilendirme3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+
+        >
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnQuizBaslat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quiz Başlat"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

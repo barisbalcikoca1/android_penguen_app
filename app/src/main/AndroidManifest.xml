@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="bm.mobil.proje.penguen">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="PENGUEN"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PENGUEN">
+        <activity
+            android:name=".GirisActivity"
+            android:theme="@style/AppTheme.Launcher"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".AnaEkranActivity" tools:ignore="Instantiatable">       </activity>
+        <activity android:name=".KelimeCalisActivity" tools:ignore="Instantiatable">    </activity>
+        <activity android:name=".QuizActivity" tools:ignore="Instantiatable">           </activity>
+        <activity android:name=".SozlukActivity" tools:ignore="Instantiatable">         </activity>
+        <activity android:name=".QuizActivityA1A2" tools:ignore="Instantiatable">       </activity>
+        <activity android:name=".QuizActivityA1A2Baslat" tools:ignore="Instantiatable"> </activity>
+        <activity android:name=".CalisActivity" tools:ignore="Instantiatable">          </activity>
+        <activity android:name=".CalisKartActivity" tools:ignore="Instantiatable">      </activity>
+        <activity android:name=".SkorActivity" tools:ignore="Instantiatable">      </activity>
+
+    </application>
+
+</manifest>
